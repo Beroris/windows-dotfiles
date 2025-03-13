@@ -82,5 +82,17 @@
 	"[typescript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"workbench.colorTheme": "JetBrains Dark (New UI)"
+	"workbench.colorTheme": "JetBrains Dark (New UI)",
+	"[markdown]": {
+		"editor.defaultFormatter": "vscode.markdown-language-features",
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false,
+		"diffEditor.ignoreTrimWhitespace": false,
+		"editor.wordWrap": "on",
+		"editor.quickSuggestions": {
+			"comments": "off",
+			"strings": "off",
+			"other": "off"
+		}
+	}
 }

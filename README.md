@@ -44,17 +44,17 @@ windows-dotfiles/
     ```
 3. After changing settings run .
   - To sync Windows Terminal settings to repo:
-  ```powershell
-  .\sync-scripts\sync-terminal-settings.ps1 to-dotfiles
-  ```
+    ```powershell
+    .\sync-scripts\sync-terminal-settings.ps1 to-dotfiles
+    ```
   - To sync Flow Launcher settings to repo:
-  ```powershell
-  .\sync-scripts\sync-flow-launcher.ps1 to-dotfiles
-  ```
+    ```powershell
+    .\sync-scripts\sync-flow-launcher.ps1 to-dotfiles
+    ```
   - To sync Cursor IDE settings to repo:
-  ```powershell
-  .\sync-scripts\sync-cursor-settings.ps1 to-dotfiles
-  ```
+    ```powershell
+    .\sync-scripts\sync-cursor-settings.ps1 to-dotfiles
+    ```
 
 
 ### TO ADD:

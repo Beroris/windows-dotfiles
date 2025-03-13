@@ -1,10 +1,10 @@
-$dotfilesPath = "$HOME\windows-dotfiles\flow-launcher\settings.json"
-$flowPath = "$env:APPDATA\FlowLauncher\Settings\Settings.json"
-
 param (
     [ValidateSet("to-dotfiles", "to-app")]
     [string]$Direction = "to-dotfiles"
 )
+
+$dotfilesPath = "$HOME\windows-dotfiles\flow-launcher\settings.json"
+$flowPath = "$env:APPDATA\FlowLauncher\Settings\Settings.json"
 
 if ($Direction -eq "to-dotfiles") {
     Copy-Item $flowPath $dotfilesPath -Force
@@ -13,4 +13,3 @@ if ($Direction -eq "to-dotfiles") {
     Copy-Item $dotfilesPath $flowPath -Force
     Write-Output "✅ Applied windows-dotfiles settings to Flow Launcher."
 }
-
