@@ -1,0 +1,86 @@
+{
+	"editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+	"editor.cursorBlinking": "phase",
+	"terminal.integrated.cursorStyle": "line",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.formatOnSave": true,
+	"editor.minimap.enabled": false,
+	"workbench.sideBar.location": "right",
+
+	// glenn Raya settings:
+	"editor.copyWithSyntaxHighlighting": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.emptySelectionClipboard": false,
+	"window.newWindowDimensions": "inherit",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"files.trimTrailingWhitespace": true,
+	"diffEditor.renderSideBySide": false,
+	"editor.snippetSuggestions": "top",
+	"editor.detectIndentation": false,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"editor.guides.indentation": false,
+	// Silence the Noise
+	"breadcrumbs.enabled": false,
+	"scm.diffDecorations": "none",
+	"editor.hover.delay": 1500,
+	"editor.hover.enabled": true,
+	"editor.matchBrackets": "never",
+	"workbench.tips.enabled": false,
+	"git.decorations.enabled": false,
+	"editor.lightbulb.enabled": "off",
+	"editor.selectionHighlight": false,
+	"editor.overviewRulerBorder": false,
+	"editor.renderLineHighlight": "none",
+	"editor.occurrencesHighlight": "off",
+	"problems.decorations.enabled": false,
+	"editor.renderControlCharacters": false,
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.gotoLocation.multipleReferences": "goto",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.gotoLocation.multipleDeclarations": "goto",
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"editor.gotoLocation.multipleImplementations": "goto",
+	"editor.gotoLocation.multipleTypeDefinitions": "goto",
+	"chat.commandCenter.enabled": false,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// custom styles and scripts
+	"vscode_custom_css.imports": [
+		"file:///c:/Users/Beroris/.cursor/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+	],
+	"security.workspace.trust.untrustedFiles": "open",
+	"workbench.activityBar.location": "bottom",
+	"editor.stickyScroll.scrollWithEditor": false,
+	"editor.stickyScroll.maxLineCount": 1,
+	"editor.hover.sticky": false,
+	"editor.stickyScroll.enabled": false,
+	"fiveServer.browser": [],
+	"fiveServer.injectBody": true,
+	"fiveServer.openTerminal": false,
+	"files.autoSave": "onWindowChange",
+	"prettier.experimentalTernaries": true,
+	"prettier.useTabs": true,
+	"editor.tabSize": 2,
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"window.menuBarVisibility": "toggle",
+	"workbench.editor.enablePreview": false,
+	"animations.Enabled": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.iconTheme": "symbols",
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.colorTheme": "JetBrains Dark (New UI)"
+}
